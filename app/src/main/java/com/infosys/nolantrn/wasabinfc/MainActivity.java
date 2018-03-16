@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.nfc.FormatException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Switch;
@@ -48,6 +49,12 @@ public class MainActivity extends NfcActivity implements AsyncUiCallback{
 
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.switch_menu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
