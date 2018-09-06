@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Switch
+        android:id="@+id/rw_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rw_text"
+        android:layout_centerHorizontal="true"
+        android:freezesText="true"
+        android:text="Read/Write" />
+
+    <EditText
+        android:id="@+id/rw_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:freezesText="true"
+        android:inputType="textPersonName"
+        android:text="Enter Text" />
+
+
+</RelativeLayout>

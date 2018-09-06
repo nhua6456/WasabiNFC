@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">WasabiNFC</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+    <string name="readwrite">Read/Write</string>
+    <string name="events">Events</string>
 </resources>
